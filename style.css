@@ -1,0 +1,161 @@
+*{
+	font-family:century gothic;
+}
+
+
+.nav{
+  background-color:#00a84f;
+  overflow: hidden;
+  color:white;
+  
+	/*left: 0;
+	bottom: 0;
+	width: 100%;
+	
+	/*float:left;
+	padding-left:125px;
+	position:relative;*/
+}
+.nav a {
+  float:left;
+  background-color:#00a84f;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+} 
+.nav a:hover {
+  background-color:#00a84f;
+  color: black;
+}
+.undernav{
+	display:flex;
+	justify-content:space-evenly;
+	width:100%;
+	float:left;
+	position:fixed;
+	
+}
+.undernav a{
+  
+  background-color:#F8F8F8;
+  color: black;
+  text-align: center;
+  padding: 25px 100px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.undernav a:hover {
+  background-color:#00a84f;
+  color: black;
+}
+.promotions{
+	display: flex;
+    margin-top:1%;
+	justify-content:space-evenly;
+	color:#00a84f;	
+}
+
+
+.promo{
+	display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+	margin-top:10%;
+	margin-left:4%;
+	/*display:flex;
+	flex-direction: row;
+	margin-top:10%;
+	justify-content:space-evenly;
+	
+	
+	/*position:relative;*/
+}
+#home,#masoko,#shopoffers{
+	display:block;
+	margin-top:10%;
+}
+/*.promo{
+	display:block;
+	margin-top:30px
+	display:inline-block;
+	overflow:auto;
+	float:left;
+	padding-left:125px;
+	position:relative;
+	margin:auto;
+} */
+/*.mpesaa{
+	padding-left:125px;
+	float:left;
+	padding-left:125px;
+	box-sizing: border-box;
+	position:relative;
+	
+}*/
+.mpesaa{
+	display: flex;
+    margin-top:1%;
+	justify-content:space-evenly;
+	color:#00a84f;
+	
+}
+
+
+.mpesa{
+	display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+	margin-left:4%;
+}
+
+#mpesaservices,#lnm,#morempesa {
+	display:block;
+	margin-top:1%;
+  
+}
+/* Clear floats after the columns */
+.net{
+  float: left;
+  padding-left:125px;
+  box-shadow: 2px 2px white;
+  box-sizing: border-box;
+  
+}
+.internet:after {
+  content: "";
+  display: table;
+  clear: both;
+	
+}
+.befooter{
+	display:flex;
+	justify-content:space-evenly;
+}
+#personal, #business, #about{
+	display:block;
+	margin-top:30px;
+}
+.befooterfooter:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer {
+  position: fixed;
+  padding-left:125px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #00a84f;
+  color: white;
+  text-align: center;
+
+}
+.footer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
