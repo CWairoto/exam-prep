@@ -19,7 +19,7 @@ sh "docker build -t cyn:version1 ."
 }
   
 stage('Docker login to hub and push the image'){
-sh "docker login -u 'cwairoto' -p 'Catalan4810!"
+sh "docker login -u 'cwairoto' -p 'Catalan4810!'"
 sh "docker tag cyn:version1 cwairoto/cii:version1"
 sh "docker push cwairoto/cii:version1"
 }
